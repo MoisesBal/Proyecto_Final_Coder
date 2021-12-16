@@ -1,0 +1,90 @@
+@charset "UTF-8";
+h1 {
+  color: #811628; }
+
+h2 {
+  color: #6c1eac; }
+
+h3 {
+  color: #3f152a; }
+
+h5 {
+  color: #53233b; }
+
+.imagen {
+  border: 3px solid #4c424d; }
+
+.imagen--portada {
+  width: 800px;
+  height: 533.33333px; }
+
+.imagen--tamaño {
+  width: 320px;
+  height: 266.66667px; }
+
+.tamaño--span {
+  width: 320px; }
+
+.imagen--centrar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.letraH1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  display: flex;
+  align-items: center; }
+
+.letraH2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px; }
+
+.letraH3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px; }
+
+.letraSpan {
+  font-family: 'Dancing Script', cursive; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.separacion {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.separacion--ref {
+  padding-top: 24px; }
+
+.centrar-Vertical {
+  display: flex;
+  align-items: center; }
+
+.justificar {
+  display: inline-block;
+  text-align: justify;
+  text-align-last: justify; }
+
+.centrarTexto {
+  text-align: center;
+  padding: 15px; }
+
+.centrarVertical {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; }
+
+.Seccion {
+  padding: 20px;
+  background-color: #dfcbda; }
+
+.footer {
+  text-align: center; }
+
+/*div, span{ 
+    border-color: #101aad;
+    border-width: 2px;
+    border-style: solid; } */

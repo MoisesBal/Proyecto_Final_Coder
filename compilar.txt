@@ -1,0 +1,24 @@
+Pasos para Instalar SASS y NodeSASS
+-----------------------------------
+Antes de instalar, verificaremos si tenemos Node.js y NPM instalado.
+
+En la consola de comandos, ejecutamos:
+
+node -v (Si nos tira un número de versión, tenemos instalado Node... no hace falta realizar el Paso 1)
+npm -v (Si nos tira un número de versión, tenemos instalado NPM... no hace falta realizar el Paso 2)
+
+1. Instalar Node.js (Ir a https://nodejs.org/es/download/ descargar la versión para Windows 10)
+2. Instalar NPM (En la consola de comandos o Terminal de Visual Code, ejecutar: npm install npm@latest -g)
+3. Ejecutar npm init (En la consola de comandos o Terminal de Visual Code, ejecutar: npm init ... darle todo ENTER y escribir "yes" al final)
+4. Instalar SASS (En la consola de comandos o Terminal de Visual Code, ejecutar: npm install -g sass)
+5. Instalar Node-SASS (En la consola de comandos o Terminal de Visual Code, ejecutar: npm install -D node-sass nodemon)
+6. Crear la Carpeta "CSS" y dentro de esa carpeta, el archivo "estilos.css"
+7. Crear la Carpeta "SCSS" y dentro de esa carpeta, el archivo "estilos.scss"
+8. Editar el archivo package.json y agregar estas dos líneas:
+
+"build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+Guardar el archivo
+
+9. Ejecutar npm run watch-css (En la consola de comandos o Terminal de Visual Code, ejecutar: npm run watch-css)

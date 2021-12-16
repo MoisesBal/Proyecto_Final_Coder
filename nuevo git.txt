@@ -1,0 +1,76 @@
+
+crear proyecto
+
+1.- git init (inicializamos el repositorio todos los archivos verdes) 
+
+2.- git add .  (agregamos los archivos a la caja)
+
+3.- git commit -m "Primera version"
+
+4.-  Automáticamente se crea la rama master
+
+5.- Crear una nueva rama
+
+		git branch nueva_rama
+		 
+		5.1 una vez realizo cambios en la rama realizar:
+		
+			git  add .   (guardar los cambios)
+		
+6.- Podemos crear varias ramas
+
+7.- para cambiarse de rama 
+
+		git checkout mi_rama.
+
+********************************************
+
+entonces podemos realizar estos pasos si ya tenemos hasta el punto 3 para modificar y subir
+cambios
+
+1.- git branch nueva_rama
+2.- git checkout nueva_rama
+3.- Verificar con git status que se realizaron los cambios
+4.- agregamos los cambios 
+			git add .
+5.- realizamos un comentario
+			git commit -m "modificacion en mi nueva rama"
+
+6.- Para pasar los cambios realizados en una rama, a la pagina master,
+tenemos que posicionarnos en la pagina master y ejecutar el siguiente
+comando:
+		
+		git merge nueva_rama
+		
+*****************************************
+para subir el repositorio a la web
+
+1.- en la pagina de github creamos un nuevo repositorio, le agregamos un nombre
+colocamos public y aceptamos.
+
+una vez realizados los cambios en nuestro sitio y guardado los cambios en la 
+pagina master, nos ubicamos en esta y ejecutamos los siguiente:
+
+2.- git init
+
+3.- git add .
+
+4.- git commit -m "first commit"
+
+5.- git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+	
+	5.1 si nos genera un error que ya existe el repositorio ejecutamos este comando:
+	
+		git remote set-url origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+		
+
+6.- git push -u origin master
+
+Para subir nuevos cambios realizamos los pasos anteriores sin ejecutar los puntos
+2 y 5
+
+
+
+
+
+

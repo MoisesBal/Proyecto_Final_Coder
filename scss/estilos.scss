@@ -1,0 +1,58 @@
+@import "imagenes";
+@import "tipografia";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.separacion{   
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.separacion--ref{   
+    padding-top: 24px;    
+}
+
+.centrar-Vertical{
+    display: flex;
+    align-items: center;
+}
+
+.justificar{
+    display: inline-block; 
+    text-align: justify;    
+    text-align-last: justify;    
+}
+
+.centrarTexto{
+    text-align: center;
+    padding: 15px;
+}
+
+.centrarVertical {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;    
+}
+
+
+.Seccion{
+    padding: 20px;
+    background-color: $color_fondoSeccion;
+}
+
+.footer{
+    text-align: center;   
+}
+
+/*div, span{ 
+    border-color: #101aad;
+    border-width: 2px;
+    border-style: solid; } */
+
+
+
+

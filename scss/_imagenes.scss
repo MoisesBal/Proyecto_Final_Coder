@@ -1,0 +1,35 @@
+@import "colores";
+
+
+$ancho:1600px;
+$alto:1600px;
+
+.imagen{
+    border: 3px solid $color_fuente;  
+}
+
+.imagen--portada{
+    width: $ancho/2;
+    height: $alto/3;
+}
+
+@mixin tamaño ($ancho, $alto) {
+    width: $ancho/5;
+    height: $alto/6;  
+}
+.imagen--tamaño{
+   @include tamaño($ancho,$alto) 
+}
+
+.tamaño--span{
+    width: $ancho/5;
+}
+
+.imagen--centrar{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
