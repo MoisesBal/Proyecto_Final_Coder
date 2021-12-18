@@ -60,8 +60,13 @@ h3 {
   font-size: 30px; }
 
 h5 {
-  font-family: 'Gwendolyn', cursive;
-  font-size: 35px; }
+  font-family: 'Courgette', cursive;
+  font-size: 25px; }
+
+.LetraH1 {
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  text-align: center; }
 
 .letraSpan {
   font-family: 'Dancing Script', cursive; }
