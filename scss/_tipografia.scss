@@ -1,21 +1,39 @@
 
-.letraH1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    display: flex;
-   align-items: center;
+h1{
+    font-family: 'Gwendolyn', cursive;
+    font-size: 45px;    
+    text-align: center;
 }
 
-.letraH2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h2{
+    font-family: 'Gwendolyn', cursive;
+    font-size: 50px;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
 }
 
-.letraH3{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+h5{
+    font-family: 'Gwendolyn', cursive;
+    font-size: 35px;
 }
+
 
 .letraSpan{
     font-family: 'Dancing Script', cursive;    
 }
+
+.letraInicio{
+    font-family: 'Gwendolyn', cursive;
+    font-size: 60px;
+}
+
+.texto_Sombreado {  
+    text-shadow: 5px 5px 4px #a51232;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 60px;
+    }

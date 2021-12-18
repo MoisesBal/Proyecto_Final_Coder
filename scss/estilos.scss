@@ -1,5 +1,6 @@
-@import "imagenes";
-@import "tipografia";
+@import "_imagenes";
+@import "_tipografia";
+@import "_colores";
 
 *{
     margin: 0;
@@ -18,6 +19,8 @@
 .centrar-Vertical{
     display: flex;
     align-items: center;
+    align-content: space-around;
+    
 }
 
 .justificar{
@@ -38,11 +41,19 @@
     flex-direction: column;    
 }
 
+.Flex_End{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: end;
+}
 
 .Seccion{
     padding: 20px;
     background-color: $color_fondoSeccion;
 }
+
+.btn-outline-dark{color: $color_fuente;}
 
 .footer{
     text-align: center;   

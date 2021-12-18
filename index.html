@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -19,17 +25,18 @@
 
 </head>
 
-<body>
+<body style="background-color:black;">
 <!--Cabecera (Inicio)-->
     <section id="inicio">
         </header>
-            <div class="container-fuid">
-                <div class="row bg-danger">
-                    <div class="col-md-12  centrarTexto">
-                        <h4>MUNDO DEL VINO</h3>
-                    </div>
-                </div>
-            </div>
+            <div class="container">
+                <div class="row background-color:black">
+                  <div class="col-md-12 centrar-Vertical">
+                    <img src="imagen/logo.jpg" class="img-fluid logo m-2" alt="Imagen logo">        
+                    <h2 class="texto_Sombreado primera_letra">Mundo del Vino</h2>
+                  </div>
+               </div>
+           </div>
         </header>
     </section>
 <!--Cabecera (Fin)-->
@@ -64,8 +71,8 @@
 <!--Portada carrusel (Inicio)-->
  <div class="container-fluid separacion">
     <div class="row">
-      <div class="col-md-12 bg-danger bg-gradient bg-opacity-10 separacion">
-        <h1 class="letraH1">Apasionados por el vino</h1>
+      <div class="col-md-12 bg-danger bg-gradient bg-opacity-10 separacion texto_Sombreado">
+        <h1>Apasionados por el vino</h1>
       </div>
     </div>
   </div>
@@ -73,18 +80,26 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2" >
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-          <div class="carousel-inner imagen imagen--portada" data-bs-interval="3000">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="imagen/portada.jpg" class="d-block w-100 " alt="...">
+              <img src="imagen/portada.jpg" class="d-block w-100 imagen--portada" alt="Primera imagen portada">
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img src="imagen/portada1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item">
+              <img src="imagen/portada1.jpg" class="d-block w-100 imagen--portada" alt="Segunda imagen portada">
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img src="imagen/portada2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item">
+              <img src="imagen/Portada2 .jpg" class="d-block w-100 imagen--portada" alt="Tercera imagen portada">
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>
@@ -95,13 +110,13 @@
 
         <!--SubTitulo Sección (inicio)-->
         <section id="historias">
-            <div class="container-fluid separacion">
+            <div class="container-fluid separacion p-4">
                 <div class="row">
-                    <div class="col-md-6 separacion  bg-danger bg-gradient bg-opacity-10">
+                    <div class="col-md-7 separacion  bg-danger bg-gradient bg-opacity-10">
                         <h2>Historias</h2>
                     </div>
 
-                    <div class="col-md-6 bg-danger bg-gradient bg-opacity-10  flex-row-reverse centrar-Vertical">
+                    <div class="col-md-5 bg-danger bg-gradient bg-opacity-10  flex-row-reverse centrar-Vertical">
                         <span class="d-inline-block" tabindex="1" data-bs-toggle="popover" data-bs-trigger="hover focus" 
                             data-bs-content="vuelve al menú">
                             <a class="btn btn-dark " href="#inicio" role="button">Menú</a>                 
@@ -156,7 +171,7 @@
 
         <!--SubTitulo Sección (inicio)-->
         <section id="cepas">
-            <div class="container-fluid separacion">
+            <div class="container-fluid separacion p-4">
                 <div class="row">
                     <div class="col-md-6 separacion  bg-danger bg-gradient bg-opacity-10">
                         <h2>Cepas</h2>
@@ -213,7 +228,7 @@
 
         <!--SubTitulo Sección (inicio)-->
         <section id="enologia">
-            <div class="container-fluid separacion">
+            <div class="container-fluid separacion p-4">
                 <div class="row">
                     <div class="col-md-6 separacion  bg-danger bg-gradient bg-opacity-10">
                         <h2>Enología</h2>
@@ -263,7 +278,7 @@
 
         <!--SubTitulo Sección (inicio)-->
         <section id="vinos">
-            <div class="container-fluid separacion">
+            <div class="container-fluid separacion p-4">
                 <div class="row">
                     <div class="col-md-6 separacion  bg-danger bg-gradient bg-opacity-10">
                         <h2>Vinos</h2>
@@ -284,7 +299,7 @@
                 <div class="row text-center">
                   <div class="col-md-4 offset-md-4 ">
                     <div class="text-start Texto text-center"><h5>Vinos</h5></div>
-                    <div><img src="imagen/vinos.jpg" class="img-fluid imagen--tamaño "></div>
+                    <div><img src="imagen/vinos.jpg" class="img-fluid imagenAlt"></div>
                     <div><span class="justificar separacion letraSpan">El vino es una bebida alcohólica que se produce
                          a partir de la fruta de la uva, mediando la fermentación alcohólica de su zumo, dicha fermentación 
                          se logra a través de la acción de las levaduras que transformarán los azúcares de la fruta en alcohol
@@ -303,7 +318,7 @@
 
         <!--SubTitulo Sección (inicio)-->
         <section id="viñas">
-            <div class="container-fluid separacion">
+            <div class="container-fluid separacion p-4">
                 <div class="row">
                     <div class="col-md-6 separacion  bg-danger bg-gradient bg-opacity-10">
                         <h2>Viñas</h2>
@@ -324,13 +339,13 @@
                 <div class="row text-center">
                   <div class="col-md-6 ">
                     <div class="text-start Texto text-center"><h5>Viñas Chilenas</h5></div>
-                    <div><img src="imagen/ViñaCH.jpg" class="img-fluid imagen--tamaño "></div>
+                    <div><img src="imagen/ViñaCH.jpg" class="img-fluid imagenAlt "></div>
                     <div class="separacion--ref"><a class="btn btn-outline-dark p-20" href="viñaschilenas.html" role="button">Vamos</a></div>                
                   </div>
                   
                   <div class="col-md-6">
                     <div class="text-start Texto text-center"><h5>Viñas Argentinas</h5></div>
-                    <div><img src="imagen/ViñaAR.jpg" class="img-fluid imagen--tamaño "></div>
+                    <div><img src="imagen/ViñaAR.jpg" class="img-fluid imagenAlt "></div>
                     <div class="separacion--ref"><a class="btn btn-outline-dark p-20" href="viñasargentinas.html" role="button">Vamos</a></div>                
                   </div>
 
@@ -361,7 +376,6 @@
             <path
               d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
           </svg>
-
         </div>
 
         <!-- twitter -->
@@ -403,15 +417,6 @@
 
   <!--FIN FOOTER-->
 
- 
-
-
-
-
-
-
-
-
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
  crossorigin="anonymous"></script>
@@ -421,7 +426,6 @@
    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
    return new bootstrap.Popover(popoverTriggerEl)})
  </script>
-
     
 </body>
 </html>

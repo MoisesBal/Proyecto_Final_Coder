@@ -1,12 +1,14 @@
-$color_fuente:#000000 !default;
+$color_fuente:#ffffff !default;
 
-$color_fuente:#4c424d;
-
-$color_H1:#811628;  $color_H2:#6c1eac;  $color_H3:#3f152a; $color_H5:#53233b;
+$color_H1:#ffffff;  $color_H2:#e6b1c5;  $color_H3:#3f152a; $color_H5:#d4c4cc;
 
 $color_fondoSeccion: #dfcbda;
 
 $color_footer: #000000;
+
+$color_span:rgb(245, 218, 220);
+
+
 
 
 h1{color: $color_H1;}
@@ -16,4 +18,12 @@ h2{color: $color_H2;}
 h3{color: $color_H3;}
 
 h5{color: $color_H5;}
+
+span{color: $color_span;}
+
+.primera_letra{
+    color: rgb(230, 228, 216);
+}
+
+
 

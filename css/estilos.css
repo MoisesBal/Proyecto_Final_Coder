@@ -1,22 +1,32 @@
 @charset "UTF-8";
 h1 {
-  color: #811628; }
+  color: #ffffff; }
 
 h2 {
-  color: #6c1eac; }
+  color: #e6b1c5; }
 
 h3 {
   color: #3f152a; }
 
 h5 {
-  color: #53233b; }
+  color: #d4c4cc; }
+
+span {
+  color: #f5dadc; }
+
+.primera_letra {
+  color: #e6e4d8; }
 
 .imagen {
-  border: 3px solid #4c424d; }
+  border: 3px solid #ffffff; }
 
 .imagen--portada {
-  width: 800px;
-  height: 533.33333px; }
+  width: 1500px;
+  height: 400px; }
+
+.imagenAlt {
+  width: 600px;
+  height: 320px; }
 
 .imagen--tamaño {
   width: 320px;
@@ -30,22 +40,58 @@ h5 {
   margin-left: auto;
   margin-right: auto; }
 
-.letraH1 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 40px;
-  display: flex;
-  align-items: center; }
+.logo {
+  width: 106.66667px;
+  height: 106.66667px; }
 
-.letraH2 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1 {
+  font-family: 'Gwendolyn', cursive;
+  font-size: 45px;
+  text-align: center; }
+
+h2 {
+  font-family: 'Gwendolyn', cursive;
+  font-size: 50px;
+  text-align: justify;
+  margin-left: 30px; }
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 30px; }
 
-.letraH3 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px; }
+h5 {
+  font-family: 'Gwendolyn', cursive;
+  font-size: 35px; }
 
 .letraSpan {
   font-family: 'Dancing Script', cursive; }
+
+.letraInicio {
+  font-family: 'Gwendolyn', cursive;
+  font-size: 60px; }
+
+.texto_Sombreado {
+  text-shadow: 5px 5px 4px #a51232;
+  font-family: 'Gwendolyn', cursive;
+  font-size: 60px; }
+
+h1 {
+  color: #ffffff; }
+
+h2 {
+  color: #e6b1c5; }
+
+h3 {
+  color: #3f152a; }
+
+h5 {
+  color: #d4c4cc; }
+
+span {
+  color: #f5dadc; }
+
+.primera_letra {
+  color: #e6e4d8; }
 
 * {
   margin: 0;
@@ -60,7 +106,8 @@ h5 {
 
 .centrar-Vertical {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  align-content: space-around; }
 
 .justificar {
   display: inline-block;
@@ -77,9 +124,18 @@ h5 {
   align-content: center;
   flex-direction: column; }
 
+.Flex_End {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: end; }
+
 .Seccion {
   padding: 20px;
   background-color: #dfcbda; }
+
+.btn-outline-dark {
+  color: #ffffff; }
 
 .footer {
   text-align: center; }
