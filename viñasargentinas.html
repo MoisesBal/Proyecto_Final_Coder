@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+   
+    <!-- Estilo letras H1 solo en el Index -->
+   <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+
+
+   <!-- Estilo letras H1 en todas las paginas -->
+   <style>@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Courgette&family=Gwendolyn:wght@700&display=swap');</style>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -12,20 +23,25 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <title>Viñas Argentinas</title>
+    <title>Viñas Argentinas - Mundo Vino</title>
+    <meta name="description" content="El mundo del vino es una fuente inacabable de historias, datos, curiosidades
+    y también información referente a esta bebida disfrutada en todo el mundo">
+    <meta name="keywords" content="mundo vino, cepas vino, enologia">
+
 </head>
 
 <body style="background-color:black;">
 <!--Cabecera (Inicio)-->
     <section id="inicio">
         </header>
-            <div class="container-fuid">
-                <div class="row bg-danger">
-                    <div class="col-md-12  centrarTexto">
-                        <h4>VIÑAS ARGENTINAS</h3>
-                    </div>
-                </div>
-            </div>
+            <div class="container">
+                <div class="row background-color:black">
+                  <div class="col-md-12 centrar-Vertical">
+                    <img src="imagen/logo.jpg" class="img-fluid logo m-2" alt="Imagen logo">        
+                    <h2 class="texto_Sombreado primera_letra"> Viñas Argentinas</h2>
+                  </div>
+               </div>
+           </div>
         </header>
     </section>
 <!--Cabecera (Fin)-->
@@ -43,11 +59,12 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavDarkDropdown">
               <ul class="navbar-nav ">                
                 <li><a class="nav-item dropdown nav-link" href="index.html">Volver</a></li>
+                <li><a class="nav-item dropdown nav-link" href="index.html#historias">Historias</a></li>
                 <li><a class="nav-item dropdown nav-link" href="cepas.html">Cepas</a></li>
-                <li><a class="nav-item dropdown nav-link" href="index.html">Enología</a></li>
+                <li><a class="nav-item dropdown nav-link" href="index.html#enologia">Enología</a></li>
                 <li><a class="nav-item dropdown nav-link" href="vinos.html">Vinos</a></li>
-                <li><a class="nav-item dropdown nav-link" href="index.html">Viñas</a></li>
-                <li><a class="nav-item dropdown nav-link" href="reservas.html">Reservas</a></li>               
+                <li><a class="nav-item dropdown nav-link" href="index.html#viñas">Viñas</a></li>
+                <li><a class="nav-item dropdown nav-link" href="reservas.html">Reservas</a></li>                
               </ul>
             </div>
           </div>
@@ -57,105 +74,116 @@
   </div>
 <!--Menú (Fin)-->
 
-<!--Contenido Sección Viñas Chilenas (Inicio)-->
+<!--Contenido sección Viñas Argentinas  (Inicio)-->
 <section>
-  <div class="container-fluid separacion ">
+  <!--Titulo contenido (Inicio)-->
+    <div class="container-fluid separacion">
       <div class="row">
-        <div class="col-md-12">
-              <h1 class="centrarTexto">VIÑAS ARGENTINAS</h1>
-              <h5 class="m-3 pe-5" >Argentina ha sido siempre un país que aporta sorpresas y novedades; una nación que todos quieren 
-                visitar y conocer, pues de alguna manera guarda muchas semejanzas con países europeos.
-
-                En tierras argentinas se ha establecido una industria vinícola que apunta a mejorar cada día, a perfeccionarse para
-                ofrecer productos de inmejorable calidad que compitan libremente con los caldos de otras regiones del mundo</h5>
+        <div class="col-md-12 bg-danger bg-gradient bg-opacity-10  texto_Sombreado ">
+          <h1 class="centrarTexto">Conoce nuestras Viñas</h1>
         </div>
       </div>
-  </div>
-
-  <!--Viña Concha y toro (Inicio)-->
-  <div class="container-fluid separacion">
-    <div class="row">
-        <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
-            <h2>BODEGAS SALENTEIN</h2>
+    </div>
+  <!--Titulo contenido (Fin)-->
+  
+    <div class="container separacion ">
+        <div class="row">
+          <div class="col-md-12">
+                <h5 class="m-3 pe-5" >Argentina ha sido siempre un país que aporta sorpresas y novedades; una nación que todos quieren 
+                  visitar y conocer, pues de alguna manera guarda muchas semejanzas con países europeos.
+  
+                  En tierras argentinas se ha establecido una industria vinícola que apunta a mejorar cada día, a perfeccionarse para
+                  ofrecer productos de inmejorable calidad que compitan libremente con los caldos de otras regiones del mundo</h5>
+          </div>
         </div>
     </div>
-  </div>
-
-  <div class="container-fluid separacion">
-      <div class="row d-flex justify-content-center">        
-          <div class="col-md-6">
-            <div ><img src="imagen/bodegasalentein.jpg " class="img-fluid p-3 "></div>
+  
+    <!--Viña Salentein (Inicio)-->
+    <div class="container-fluid separacion">
+      <div class="row">
+          <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
+              <h2>Bodegas Salentein</h2>
           </div>
-
-          <div class="col-md-6 mt-10 centrarVertical">
-            <div><h5>Ubicada en el Valle De Uco, la bodega Salentein combina la producción vitivinícola con el arte, la cultura, 
-              su moderna arquitectura y un maravilloso hábitat desértico autóctono. En el espacio Killka de la bodega,
-              se puede apreciar una valiosa colección de arte argentino contemporáneo y holandés del siglo XIX y XX. 
-              De esta manera, este lugar se convierte en un indiscutido espacio cultural, en donde vino y arte se unen
-              en un ámbito arquitectónico único creado para tal fin.</h5></div>
-              
-            <div class="p-3 text-center"><h5>Te invitamos a conocer esta viña o bien a realizar una reserva</h5></div>
-
-            <div class="row">        
-              <div class="col-md-12 d-flex justify-content-around">
-                <div><a class="btn btn-outline-dark" href="reservas.html" role="button">Reservar</a></div>
-                <div><input class="btn btn-outline-dark" type="button" onclick="location.href='https://www.bodegasalentein.com/';" value="Sitio Web" /></div>
+      </div>
+    </div>
+  
+    <div class="container-fluid separacion">
+        <div class="row d-flex justify-content-center">        
+            <div class="col-md-6">
+              <div ><img src="imagen/bodegasalentein.jpg " class="img-fluid "></div>
+            </div>
+  
+            <div class="col-md-4 mt-10 centrarVertical justificar">
+              <div><h5>Ubicada en el Valle De Uco, la bodega Salentein combina la producción vitivinícola con el arte, la cultura, 
+                su moderna arquitectura y un maravilloso hábitat desértico autóctono. En el espacio Killka de la bodega,
+                se puede apreciar una valiosa colección de arte argentino contemporáneo y holandés del siglo XIX y XX. 
+                De esta manera, este lugar se convierte en un indiscutido espacio cultural, en donde vino y arte se unen
+                en un ámbito arquitectónico único creado para tal fin.</h5></div>
+                
+              <div class="p-3 text-center"><h5>Te invitamos a conocer esta viña o bien a realizar una reserva</h5></div>
+  
+              <div class="row">        
+                <div class="col-md-12 d-flex justify-content-around">
+                  <div><a class="btn btn-outline-dark" href="reservas.html" role="button">Reservar</a></div>
+                  <div><input class="btn btn-outline-dark" type="button" onclick="location.href='https://www.bodegasalentein.com/';" value="Sitio Web" /></div>
+                </div>
               </div>
             </div>
-          </div>
-      </div>
-  </div>
-  <!--Viña Concha y toro (Fin)-->
-
-  <!--Viña Casas del Bosque (Inicio)-->
-  <div class="container-fluid separacion">
-    <div class="row">
-        <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
-            <h2>BODEGAS CHANDON</h2>
         </div>
     </div>
-  </div>
-  <div class="container-fluid separacion">
-      <div class="row d-flex justify-content-center">        
-          <div class="col-md-6">
-            <div ><img src="imagen/bodegachandon.jpg " class="img-fluid p-3 "></div>
-          </div>
+    <!--Viña Salentein (Fin)-->
 
-          <div class="col-md-6 mt-10  centrarVertical ">
-            <div><h5>Esta prestigiosa bodega especializada en vinos espumantes, nos ofrece dos tipos de visitas.
-
-            Por un lado, una de degustación clásica en el interior de la bodega. Aquí probaremos tres copas de la marca y otra
-            un poco más chic, donde realizaremos un Picnic en los Jardines de Chandon, con empanadas, tabla de quesos, fiambres,
-            distintos tipos de panes y además de una botella de chandon por supuesto.</h5></div>
-              
-            <div class="p-3 text-center"><h5>Te invitamos a conocer esta viña o bien a realizar una reserva</h5></div>
-
-            <div class="row">        
-              <div class="col-md-12 d-flex justify-content-around">
-                <div><a class="btn btn-outline-dark" href="reservas.html" role="button">Reservar</a></div>
-                <div><input class="btn btn-outline-dark" type="button" onclick="location.href='https://www.chandon.com.ar/';" value="Sitio Web" /></div>
+    <!--Viña Bodegas Chandon (Inicio)-->
+    <div class="container-fluid separacion">
+          <div class="row">
+              <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
+                <h2>Bodegas Chandon</h2>
               </div>
+          </div>
+        </div>
+      
+        <div class="container-fluid separacion">
+            <div class="row d-flex justify-content-center">        
+                <div class="col-md-6">
+                  <div ><img src="imagen/bodegachandon.jpg " class="img-fluid p-3 "></div>
+                </div>
+      
+                <div class="col-md-4 mt-10 centrarVertical justificar">
+                  <div><h5>Esta prestigiosa bodega especializada en vinos espumantes, nos ofrece dos tipos de visitas.
+  
+                    Por un lado, una de degustación clásica en el interior de la bodega. Aquí probaremos tres copas de la marca y otra
+                    un poco más chic, donde realizaremos un Picnic en los Jardines de Chandon, con empanadas, tabla de quesos, fiambres,
+                    distintos tipos de panes y además de una botella de chandon por supuesto.</h5></div>
+                    
+                  <div class="p-3 text-center"><h5>Te invitamos a conocer esta viña o bien a realizar una reserva</h5></div>
+      
+                  <div class="row">        
+                    <div class="col-md-12 d-flex justify-content-around">
+                      <div><a class="btn btn-outline-dark" href="reservas.html" role="button">Reservar</a></div>
+                      <div><input class="btn btn-outline-dark" type="button" onclick="location.href='https://www.chandon.com.ar/';" value="Sitio Web" /></div>
+                        </div>
+                  </div>
+                </div>
             </div>
+        </div>
+    <!--Viña Bodegas Chandon (Fin)-->
+  
+    <!--Viña Andeluna (Inicio)-->
+    <div class="container-fluid separacion">
+      <div class="row">
+          <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
+            <h2>Bodega Andeluna</h2>
           </div>
       </div>
-  </div>
-  <!--Viña Casas del Bosque (Fin)-->
-
-  <!--Viña Casas del Bosque (Inicio)-->
-  <div class="container-fluid separacion">
-    <div class="row">
-        <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
-            <h2>BODEGA ANDELUNA</h2>
-        </div>
     </div>
-  </div>
+  
     <div class="container-fluid separacion">
         <div class="row d-flex justify-content-center">        
             <div class="col-md-6">
               <div ><img src="imagen/bodegaandeluna.jpg " class="img-fluid p-3 "></div>
             </div>
   
-            <div class="col-md-6 mt-10 centrarVertical">
+            <div class="col-md-4 mt-10 centrarVertical justificar">
               <div><h5>Esta moderna bodega mendocina cuenta con una de las mejores vistas de la región. Sus viñedos están ubicados en
                 la microregión de Gualtallary en Tupungato a unos 1300 metros sobre el nivel del mar. Es una de las zonas más frescas
                 de Mendoza.
@@ -175,11 +203,14 @@
             </div>
         </div>
     </div>
-    <!--Viña Casas del Bosque (Fin)-->
-</section>
-<!--Contenido Sección Viñas Chilenas (Fin)-->
+    <!--Viña Andeluna (Fin)-->
 
-<!--INICIO FOOTER-->
+  </section>
+<!--Contenido sección Viñas Argentinas  (Fin)-->
+</body>
+
+
+ <!--INICIO FOOTER-->
 
  <footer class="bg-dark text-center text-white">
     <div class="d-flex justify-content-around ">
@@ -192,7 +223,6 @@
             <path
               d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
           </svg>
-
         </div>
 
         <!-- twitter -->
@@ -243,7 +273,6 @@
    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
    return new bootstrap.Popover(popoverTriggerEl)})
  </script>
-
     
-</body>
+
 </html>

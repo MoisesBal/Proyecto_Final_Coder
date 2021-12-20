@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+   
+    <!-- Estilo letras H1 solo en el Index -->
+   <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+
+
+   <!-- Estilo letras H1 en todas las paginas -->
+   <style>@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Courgette&family=Gwendolyn:wght@700&display=swap');</style>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -12,20 +23,25 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <title>Vinos</title>
+    <title>Vinos - Mundo Vino</title>
+    <meta name="description" content="El mundo del vino es una fuente inacabable de historias, datos, curiosidades
+    y también información referente a esta bebida disfrutada en todo el mundo">
+    <meta name="keywords" content="mundo vino, cepas vino, enologia">
+
 </head>
 
 <body style="background-color:black;">
 <!--Cabecera (Inicio)-->
     <section id="inicio">
         </header>
-            <div class="container-fuid">
-                <div class="row bg-danger">
-                    <div class="col-md-12  centrarTexto">
-                        <h4>VINOS</h3>
-                    </div>
-                </div>
-            </div>
+            <div class="container">
+                <div class="row background-color:black">
+                  <div class="col-md-12 centrar-Vertical">
+                    <img src="imagen/logo.jpg" class="img-fluid logo m-2" alt="Imagen logo">        
+                    <h2 class="texto_Sombreado primera_letra"> Vinos</h2>
+                  </div>
+               </div>
+           </div>
         </header>
     </section>
 <!--Cabecera (Fin)-->
@@ -43,10 +59,11 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavDarkDropdown">
               <ul class="navbar-nav ">                
                 <li><a class="nav-item dropdown nav-link" href="index.html">Volver</a></li>
+                <li><a class="nav-item dropdown nav-link" href="index.html#historias">Historias</a></li>
                 <li><a class="nav-item dropdown nav-link" href="cepas.html">Cepas</a></li>
-                <li><a class="nav-item dropdown nav-link" href="index.html">Enología</a></li>
+                <li><a class="nav-item dropdown nav-link" href="index.html#enologia">Enología</a></li>
                 <li><a class="nav-item dropdown nav-link" href="vinos.html">Vinos</a></li>
-                <li><a class="nav-item dropdown nav-link" href="index.html">Viñas</a></li>
+                <li><a class="nav-item dropdown nav-link" href="index.html#viñas">Viñas</a></li>
                 <li><a class="nav-item dropdown nav-link" href="reservas.html">Reservas</a></li>                
               </ul>
             </div>
@@ -57,12 +74,23 @@
   </div>
 <!--Menú (Fin)-->
 
-<!--Contenido Sección Vinos (Inicio)-->
+<!--Contenido sección Enología  (Inicio)-->
 <section>
-  <div class="container-fluid separacion ">
+  <!--Titulo contenido (Inicio)-->
+    <div class="container-fluid separacion">
       <div class="row">
-        <div class="col-md-12">
-              <h1 class="centrarTexto">¿QUÉ ES EL VINO?</h1>
+        <div class="col-md-12 bg-danger bg-gradient bg-opacity-10  texto_Sombreado ">
+          <h1 class="centrarTexto">¿Que es el Vino?</h1>
+        </div>
+      </div>
+    </div>
+  <!--Titulo contenido (Fin)-->
+  
+
+  <section>
+    <div class="container separacion ">
+      <div class="row">
+        <div class="col-md-12 justificar">
               <h5 class="m-3 pe-5" >El vino es la bebida que se obtiene de la fermentación alcohólica total o parcial, del
                 zumo de uvas maduras.</h5>
 
@@ -124,8 +152,24 @@
                       </div>
                   </div> 
                 </div>
+          </div>     
+      </div>    
+    </div>       
+
+    <div class="container-fluid separacion">
+      <div class="row">
+        <div class="col-md-12 bg-danger bg-gradient bg-opacity-10 flex-row-reverse centrar-Vertical">
+          <span class="d-inline-block" tabindex="1" data-bs-toggle="popover" data-bs-trigger="hover focus" 
+            data-bs-content="vuelve al menú">
+            <a class="btn btn-dark " href="#inicio" role="button">Menú</a>                 
+          </span>
+        </div>
+      </div>
+    </div>
 </section>
-<!--Contenido Sección Vinos (Fin)-->
+<!--Contenido Sección Enología (Fin)-->
+</body>
+
 
  <!--INICIO FOOTER-->
 
@@ -140,7 +184,6 @@
             <path
               d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
           </svg>
-
         </div>
 
         <!-- twitter -->
@@ -191,7 +234,6 @@
    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
    return new bootstrap.Popover(popoverTriggerEl)})
  </script>
-
     
-</body>
+
 </html>
