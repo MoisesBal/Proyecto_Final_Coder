@@ -47,6 +47,8 @@
     justify-content: end;
 }
 
+.caja { float:left;margin-left:5px; } 
+
 .Seccion{
     padding: 20px;
     background-color: $color_fondoSeccion;
@@ -64,5 +66,13 @@
     border-style: solid; } */
 
 
+    .floatIzquierda {
+        width:600px; 
+        float:left;       
+      }
 
+      .floatDerecha{
+        width:600px;        
+        float:right;       
+      }
 

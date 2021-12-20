@@ -14,6 +14,9 @@ h5 {
 span {
   color: #f5dadc; }
 
+p {
+  color: #ffffff; }
+
 .primera_letra {
   color: #e6e4d8; }
 
@@ -95,6 +98,9 @@ h5 {
 span {
   color: #f5dadc; }
 
+p {
+  color: #ffffff; }
+
 .primera_letra {
   color: #e6e4d8; }
 
@@ -135,6 +141,10 @@ span {
   flex-direction: column;
   justify-content: end; }
 
+.caja {
+  float: left;
+  margin-left: 5px; }
+
 .Seccion {
   padding: 20px;
   background-color: #dfcbda; }
@@ -149,3 +159,10 @@ span {
     border-color: #101aad;
     border-width: 2px;
     border-style: solid; } */
+.floatIzquierda {
+  width: 600px;
+  float: left; }
+
+.floatDerecha {
+  width: 600px;
+  float: right; }

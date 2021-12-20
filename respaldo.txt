@@ -30,6 +30,96 @@
 
 
 
+cepas******
+<!--Contenido Sección Cepas (Inicio)-->
+<section>
+    <div class="container-fluid separacion ">
+        <div class="row">
+          <div class="col-md-12">
+                <h1 class="centrarTexto">CEPA DE VINO, ¿QUÉ ES ESO? </h1>
+                <h5 class="m-3 pe-5" >Si has escuchado a un sommelier o algún experto de vinos hablar, quizá la frase “Cepa de vino” haya surgido en la 
+                  conversación; pues bien, si tuviste que pensar un poco más para entender de qué hablaban, no te preocupes,
+                  hoy descifraremos todo lo que hay detrás de esa frase de una forma fácil.</h5>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid separacion">
+       <div class="row">
+           <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
+              <h2 class="ms-4">¿Qué significa cepa de vino? </h2>
+            </div>
+        </div>
+     </div>
+
+     <div class="container-fluid separacion ">
+      <div class="row">
+        <div class="col-md-12">
+                <h5 class="ms-3 p-1">Cuando en el mundo del vino se habla de cepa, existen dos posibles significados. Imagina estos dos escenarios:</h5>
+
+                <h5 class="ms-5 pe-5">1.- Estamos en un viñedo y ves diferentes filas de plantas con racimos de uva colgando. Si miras con detalle una de
+                   ellas, podrás ver el tronco de la vid que sale de la tierra y se extiende dando vida a los racimos, esto es
+                   lo que por definición es la palabra cepa; pero espera, esta no es la forma en que más utilizamos el término,
+                  ¡sigue adelante!</h5>
+
+                <div class="d-flex justify-content-evenly"><img src="imagen/cepa1.jpg" class="img-fluid p-3"></div>
+
+                <h5 class="ms-5 pe-5">2.- Imagina que andas recorriendo las estanterías de tu tienda de vinos favorita en busca de una botella
+                   para descorchar hoy, nombres como cabernet sauvignon, pinot  noir y chardonnay aparecen etiquetando las diferentes
+                    botellas, esos son los nombres de las cepas con las que están hechos estos vinos, es decir, los diferentes tipos 
+                    de uva, cada una de ellas tiene características diferentes que hacen que los vinos que se crean puedan distinguirse
+                    unos de otros, dejando una huella propia que conecta con nuestros sentidos a través de su color, aroma, textura
+                    y sabor. Por ejemplo, si tomas del mostrador la botella que dice pinot noir, cuando llegues a casa y la pruebes 
+                    podrás darte cuenta de que es muy frutal y suave, con un sabor a frutos rojos muy característico, pero si tomas 
+                    en cambio la botella de cabernet, podrás sentir en tu paladar lo que se siente cuando saboreas un chocolate 
+                    negro y si pruebas un poco más, podrás sentir toques a especias, pimienta quizá.</h5>
+
+                <div class="d-flex justify-content-evenly"><img src="imagen/cepas2.jpg" class="img-fluid p-3"></div>
+          </div>
+        </div> 
+      </div>
+
+    <div class="container-fluid separacion ">
+            <div class="row">
+              <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
+                <h2 class="ms-4">Aquí algunas de las cepas más conocidas</h2>
+              </div>
+                <div class="col-md-12 offset-md-2">
+                    <div>
+                      <ul class="list-group list-group-flush">
+                        <h4 class="p-4">Cepas Blancas</h4> 
+                        <li class="list-group-item">Semillón</li>
+                        <li class="list-group-item">Sauvignon blanc</li>
+                        <li class="list-group-item">Chardonnay</li>
+                        <li class="list-group-item">Albariño</li>
+                        <li class="list-group-item">Verdejo</li>
+                        <li class="list-group-item">Riesling</li>
+                      </ul>                    
+                    </div>
+                </div>
+            </div> 
+      </div>
+
+      <div class="container-fluid separacion ">
+        <div class="row">
+            <div class="col-md-12 offset-md-2">
+                <div>
+                  <ul class="list-group list-group-flush">
+                    <h4>Cepas Negras</h4> 
+                    <li class="list-group-item">Malbec</li>
+                    <li class="list-group-item">Cabernet sauvignon</li>
+                    <li class="list-group-item">Tempranillo</li>
+                    <li class="list-group-item">Syrah</li>
+                    <li class="list-group-item">Merlot</li>
+                    <li class="list-group-item">Pinot Noir</li>
+                  </ul>                    
+                </div>
+            </div>
+        </div> 
+  </div>
+</section>
+<!--Contenido Sección Viñas Chilenas (Fin)-->
+
 
 
 
