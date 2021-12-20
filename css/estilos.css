@@ -8,6 +8,9 @@ h2 {
 h3 {
   color: #3f152a; }
 
+h4 {
+  color: #f0c6d3; }
+
 h5 {
   color: #d4c4cc; }
 
@@ -92,6 +95,9 @@ h2 {
 h3 {
   color: #3f152a; }
 
+h4 {
+  color: #f0c6d3; }
+
 h5 {
   color: #d4c4cc; }
 
@@ -128,6 +134,10 @@ p {
 .centrarTexto {
   text-align: center;
   padding: 15px; }
+
+.TextoDerecha {
+  display: flex;
+  text-align: right; }
 
 .centrarVertical {
   display: flex;
@@ -166,3 +176,7 @@ p {
 .floatDerecha {
   width: 600px;
   float: right; }
+
+.list-group-item[aria-expanded="true"] {
+  background-color: black !important;
+  border-color: #aed248; }

@@ -33,6 +33,12 @@
     padding: 15px;
 }
 
+.TextoDerecha{
+    display: flex;
+    text-align: right;    
+}
+
+
 .centrarVertical {
     display: flex;
     justify-content: center;
@@ -75,4 +81,10 @@
         width:600px;        
         float:right;       
       }
+
+      .list-group-item[aria-expanded="true"]{
+        background-color: black !important;
+     border-color: #aed248;
+   
+   }
 

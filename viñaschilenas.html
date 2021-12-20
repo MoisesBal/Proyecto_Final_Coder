@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+   
+    <!-- Estilo letras H1 solo en el Index -->
+   <style>@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap');</style>
+
+
+   <!-- Estilo letras H1 en todas las paginas -->
+   <style>@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Courgette&family=Gwendolyn:wght@700&display=swap');</style>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -12,20 +23,25 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <title>Viñas Chilenas</title>
+    <title>Viñas Chilenas - Mundo Vino</title>
+    <meta name="description" content="El mundo del vino es una fuente inacabable de historias, datos, curiosidades
+    y también información referente a esta bebida disfrutada en todo el mundo">
+    <meta name="keywords" content="mundo vino, cepas vino, enologia">
+
 </head>
 
 <body style="background-color:black;">
 <!--Cabecera (Inicio)-->
     <section id="inicio">
         </header>
-            <div class="container-fuid">
-                <div class="row bg-danger">
-                    <div class="col-md-12  centrarTexto">
-                        <h4>VIÑAS CHILENAS</h3>
-                    </div>
-                </div>
-            </div>
+            <div class="container">
+                <div class="row background-color:black">
+                  <div class="col-md-12 centrar-Vertical">
+                    <img src="imagen/logo.jpg" class="img-fluid logo m-2" alt="Imagen logo">        
+                    <h2 class="texto_Sombreado primera_letra"> Viñas Chilenas</h2>
+                  </div>
+               </div>
+           </div>
         </header>
     </section>
 <!--Cabecera (Fin)-->
@@ -43,11 +59,12 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavDarkDropdown">
               <ul class="navbar-nav ">                
                 <li><a class="nav-item dropdown nav-link" href="index.html">Volver</a></li>
+                <li><a class="nav-item dropdown nav-link" href="index.html#historias">Historias</a></li>
                 <li><a class="nav-item dropdown nav-link" href="cepas.html">Cepas</a></li>
-                <li><a class="nav-item dropdown nav-link" href="index.html">Enología</a></li>
+                <li><a class="nav-item dropdown nav-link" href="index.html#enologia">Enología</a></li>
                 <li><a class="nav-item dropdown nav-link" href="vinos.html">Vinos</a></li>
-                <li><a class="nav-item dropdown nav-link" href="index.html">Viñas</a></li>
-                <li><a class="nav-item dropdown nav-link" href="reservas.html">Reservas</a></li>               
+                <li><a class="nav-item dropdown nav-link" href="index.html#viñas">Viñas</a></li>
+                <li><a class="nav-item dropdown nav-link" href="reservas.html">Reservas</a></li>                
               </ul>
             </div>
           </div>
@@ -57,102 +74,113 @@
   </div>
 <!--Menú (Fin)-->
 
-<!--Contenido Sección Viñas Chilenas (Inicio)-->
+<!--Contenido sección Viñas Chilenas  (Inicio)-->
 <section>
-  <div class="container-fluid separacion ">
+  <!--Titulo contenido (Inicio)-->
+    <div class="container-fluid separacion">
       <div class="row">
-        <div class="col-md-12">
-              <h1 class="centrarTexto">VIÑAS CHILENAS</h1>
-              <h5 class="m-3 pe-5" >Existe un gran número de viñas a lo largo de la ruta del vino chileno. Estas están 
-                ubicadas en las regiones y valles vitivinícolas del país. Además, son las encargadas de producir cosechas
-                suficientes para la elaboración de los más populares vinos chilenos, reconocidos mundialmente. Con un sello
-                particular, los viñedos ofrecen botellas de la más alta calidad, con sabores y aromas propios de cada casa
-                vitivinícola.</h5>
+        <div class="col-md-12 bg-danger bg-gradient bg-opacity-10  texto_Sombreado ">
+          <h1 class="centrarTexto">Conoce nuestras Viñas</h1>
         </div>
       </div>
-  </div>
-
-  <!--Viña Concha y toro (Inicio)-->
-  <div class="container-fluid separacion">
-    <div class="row">
-        <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
-            <h2>Viña Concha y Toro</h2>
+    </div>
+  <!--Titulo contenido (Fin)-->
+  
+    <div class="container separacion ">
+        <div class="row">
+          <div class="col-md-12">
+                <h5 class="m-3 pe-5" >Existe un gran número de viñas a lo largo de la ruta del vino chileno. Estas están 
+                  ubicadas en las regiones y valles vitivinícolas del país. Además, son las encargadas de producir cosechas
+                  suficientes para la elaboración de los más populares vinos chilenos, reconocidos mundialmente. Con un sello
+                  particular, los viñedos ofrecen botellas de la más alta calidad, con sabores y aromas propios de cada casa
+                  vitivinícola.</h5>
+          </div>
         </div>
     </div>
-  </div>
-
-  <div class="container-fluid separacion">
-      <div class="row d-flex justify-content-center">        
-          <div class="col-md-6">
-            <div ><img src="imagen/viñacToro.jpg " class="img-fluid p-3 "></div>
+  
+    <!--Viña Conncha y Toro (Inicio)-->
+    <div class="container-fluid separacion">
+      <div class="row">
+          <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
+            <h2>Viña Concha y Toro</h2>
           </div>
-
-          <div class="col-md-6 mt-10 centrarVertical">
-            <div><h5>Esta viña ostenta el segundo lugar entre las marcas de vino más admiradas a nivel mundial. Concha 
+      </div>
+    </div>
+  
+    <div class="container-fluid separacion">
+        <div class="row d-flex justify-content-center">        
+            <div class="col-md-6">
+              <div ><img src="imagen/viñacToro.jpg " class="img-fluid "></div>
+            </div>
+  
+            <div class="col-md-4 mt-10 centrarVertical justificar">
+              <div><h5>Esta viña ostenta el segundo lugar entre las marcas de vino más admiradas a nivel mundial. Concha 
                 y Toro es una que alberga vinos de alta calidad, producto de las 26 cepas de uva que se cultivan en sus tierras. 
                 Los vinos de esta casa son el resultado de un buen cultivo y un tiempo de guarda excepcional, que logra resaltar
                 las propiedades de sus mejores vinos blancos y tintos.</h5></div>
-              
-            <div class="p-3 text-center"><h5>Te invitamos a conocer esta viña o bien a realizar una reserva</h5></div>
-
-            <div class="row">        
-              <div class="col-md-12 d-flex justify-content-around">
-                <div><a class="btn btn-outline-dark" href="reservas.html" role="button">Reservar</a></div>
-                <div><input class="btn btn-outline-dark" type="button" onclick="location.href='https://conchaytoro.com/';" value="Sitio Web" /></div>
+                
+              <div class="p-3 text-center"><h5>Te invitamos a conocer esta viña o bien a realizar una reserva</h5></div>
+  
+              <div class="row">        
+                <div class="col-md-12 d-flex justify-content-around">
+                  <div><a class="btn btn-outline-dark" href="reservas.html" role="button">Reservar</a></div>
+                  <div><input class="btn btn-outline-dark" type="button" onclick="location.href='https://conchaytoro.com/';" value="Sitio Web" /></div>
+                </div>
               </div>
             </div>
-          </div>
-      </div>
-  </div>
-  <!--Viña Concha y toro (Fin)-->
-
-  <!--Viña Casas del Bosque (Inicio)-->
-  <div class="container-fluid separacion">
-    <div class="row">
-        <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
-            <h2>Viña Haras de Pirque</h2>
         </div>
     </div>
-  </div>
-  <div class="container-fluid separacion">
-      <div class="row d-flex justify-content-center">        
-          <div class="col-md-6">
-            <div ><img src="imagen/viñaharas pirque.jpg " class="img-fluid p-3 "></div>
-          </div>
+    <!--Viña Conncha y Toro (Fin)-->
 
-          <div class="col-md-6 mt-10  centrarVertical ">
-            <div><h5>Ubicada en el valle del Maipo, la viña Haras de Pirque, una de las más singulares del territorio chileno. 
-              Sus bodegas tienen forma de herradura, en donde fermentan, guardan y embotellan sus populares vinos. Además, es una
-              marca reconocida por sus exóticos vinos y cepas exquisitas.</h5></div>
-              
-            <div class="p-3 text-center"><h5>Te invitamos a conocer esta viña o bien a realizar una reserva</h5></div>
-
-            <div class="row">        
-              <div class="col-md-12 d-flex justify-content-around">
-                <div><a class="btn btn-outline-dark" href="reservas.html" role="button">Reservar</a></div>
-                <div><input class="btn btn-outline-dark" type="button" onclick="location.href='https://haraswines.com/';" value="Sitio Web" /></div>
+  <!--Viña Haras de Pirque (Inicio)-->
+    <div class="container-fluid separacion">
+          <div class="row">
+              <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
+                <h2>Viña Casas del Bosque</h2>
               </div>
-            </div>
           </div>
-      </div>
-  </div>
-  <!--Viña Casas del Bosque (Fin)-->
+        </div>
+      
+        <div class="container-fluid separacion">
+            <div class="row d-flex justify-content-center">        
+                <div class="col-md-6">
+                  <div ><img src="imagen/viñaharas pirque.jpg " class="img-fluid p-3 "></div>
+                </div>
+      
+                <div class="col-md-4 mt-10 centrarVertical justificar">
+                  <div><h5>Ubicada en el valle del Maipo, la viña Haras de Pirque, una de las más singulares del territorio chileno. 
+                    Sus bodegas tienen forma de herradura, en donde fermentan, guardan y embotellan sus populares vinos. Además, es una
+                    marca reconocida por sus exóticos vinos y cepas exquisitas</h5></div>
+                    
+                  <div class="p-3 text-center"><h5>Te invitamos a conocer esta viña o bien a realizar una reserva</h5></div>
+      
+                  <div class="row">        
+                    <div class="col-md-12 d-flex justify-content-around">
+                      <div><a class="btn btn-outline-dark" href="reservas.html" role="button">Reservar</a></div>
+                      <div><input class="btn btn-outline-dark" type="button" onclick="location.href='https://haraswines.com/';" value="Sitio Web" /></div>
+                              </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+<!--Viña Haras de Pirque (Fin)-->
 
-  <!--Viña Casas del Bosque (Inicio)-->
-  <div class="container-fluid separacion">
-    <div class="row">
-        <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
+<!--Viña Montes (Inicio)-->
+    <div class="container-fluid separacion">
+      <div class="row">
+          <div class="col-md-12 separacion  bg-danger bg-gradient bg-opacity-10">
             <h2>Viña Montes</h2>
-        </div>
+          </div>
+      </div>
     </div>
-  </div>
+  
     <div class="container-fluid separacion">
         <div class="row d-flex justify-content-center">        
             <div class="col-md-6">
               <div ><img src="imagen/viñamontes.jpg " class="img-fluid p-3 "></div>
             </div>
   
-            <div class="col-md-6 mt-10 centrarVertical">
+            <div class="col-md-4 mt-10 centrarVertical justificar">
               <div><h5>Esta se encuentra en el valle de Colchagua, ofreciendo vinos madurados de diversas cepas. Además, 
                 la misma viña cuenta con amplios terrenos para el cultivo de uvas jugosas que sirven para el provecho de buenos 
                 vinos. Además, esta marca es reconocida a nivel internacional, ya que otorga sabores frutosos y un buen nivel
@@ -169,11 +197,26 @@
             </div>
         </div>
     </div>
-    <!--Viña Casas del Bosque (Fin)-->
-</section>
-<!--Contenido Sección Viñas Chilenas (Fin)-->
+<!--Viña Montes (Fin)-->
 
-<!--INICIO FOOTER-->
+    <div class="container-fluid separacion">
+      <div class="row">
+        <div class="col-md-12 bg-danger bg-gradient bg-opacity-10 flex-row-reverse centrar-Vertical">
+          <span class="d-inline-block" tabindex="1" data-bs-toggle="popover" data-bs-trigger="hover focus" 
+            data-bs-content="vuelve al menú">
+            <a class="btn btn-dark " href="#inicio" role="button">Menú</a>                 
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+<!--Contenido sección Viñas Argentinas  (Fin)-->
+</body>
+
+
+ <!--INICIO FOOTER-->
 
  <footer class="bg-dark text-center text-white">
     <div class="d-flex justify-content-around ">
@@ -186,13 +229,12 @@
             <path
               d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
           </svg>
-
         </div>
 
         <!-- twitter -->
         <div class="col-md-2">
 
-          <svg xmlns="http://www.Facebook.com" width="25" height="25" fill="currentColor" class="bi bi-twitter"
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter"
             viewBox="0 0 16 16">
             <path
               d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
@@ -237,7 +279,6 @@
    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
    return new bootstrap.Popover(popoverTriggerEl)})
  </script>
-
     
-</body>
+
 </html>
