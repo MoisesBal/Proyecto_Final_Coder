@@ -42,7 +42,7 @@ comando:
 		
 		git merge nueva_rama
 		
-*****************************************
+*****************************************checkout
 para subir el repositorio a la web
 
 1.- en la pagina de github creamos un nuevo repositorio, le agregamos un nombre

@@ -17,7 +17,7 @@ h5 {
 span {
   color: #f5dadc; }
 
-p {
+p, label, li {
   color: #ffffff; }
 
 .primera_letra {
@@ -69,6 +69,10 @@ h5 {
   font-family: 'Courgette', cursive;
   font-size: 25px; }
 
+h6 {
+  font-family: 'Asap', sans-serif;
+  font-size: 18px; }
+
 .LetraH1 {
   font-family: 'Courgette', cursive;
   font-size: 40px;
@@ -104,7 +108,7 @@ h5 {
 span {
   color: #f5dadc; }
 
-p {
+p, label, li {
   color: #ffffff; }
 
 .primera_letra {
@@ -135,9 +139,12 @@ p {
   text-align: center;
   padding: 15px; }
 
-.TextoDerecha {
+.TextoIzquierda1 {
   display: flex;
   text-align: right; }
+
+.TextoIzquierda {
+  text-align: left; }
 
 .centrarVertical {
   display: flex;
